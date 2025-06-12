@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu</title>
+  <style>
+    li:not(.categoria)::before {
+      content: "> ";
+    }
+
+    .categoria + li {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li class="categoria">Principal</li>
+    <li>Home Page</li>
+    <li>Equipe</li>
+    <li>Contato</li>
+    <li class="categoria">Conteúdo</li>
+    <li>Conteúdo 1</li>
+    <li>Conteúdo 2</li>
+  </ul>
+</body>
+</html>
